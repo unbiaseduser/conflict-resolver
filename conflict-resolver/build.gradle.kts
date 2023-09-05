@@ -1,15 +1,11 @@
 plugins {
     id("java-library")
-    kotlin("jvm") version "1.9.0"
+    kotlin("jvm")
     id("maven-publish")
 }
 
 group = "com.sixtyninefourtwenty"
 version = "1.0"
-
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     testImplementation(kotlin("test"))
